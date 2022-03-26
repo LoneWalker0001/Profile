@@ -18,7 +18,17 @@
 body{ background:radial-gradient(#ddd6f3,#faaca8);
     }   
 #body{margin:0;height:100%;width:100%;display:grid;place-item:center;
-   background:radial-gradient(#ddd6f3,#faaca8);
+   background:linear-gradient(#ddd6f3,#faaca8);
+ margin:0;height:100%;width:100%;
+display:grid;place-item:center;
+animation:bg-anim 10s infinite;
+background-position:left;
+transition:background-position 10s;
+transition-delay:50s;
+background-size:150%;
+ }
+@keyframes bg-anim { 0% {background-position:left}
+100%  {background-position:right;}
     }
 .profile-container{margin:auto;width:600px;height:350px;position:relative;overflow:hidden;background-color:#fff
 border-radius:10px;
