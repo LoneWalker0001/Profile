@@ -15,10 +15,9 @@
 <style>
 *{magin: 0;padding:0;box-sizing:border-box;
 }
-body{ background:radial-gradient(#ddd6f3,#faaca8);
-    }   
+body{ background:radial-gradient(#ddd6f3,#faaca8); }   
 #body{margin:0;height:100%;width:100%;display:grid;place-item:center;
-   background:linear-gradient(#ddd6f3,#faaca8);
+ background:linear-gradient(49deg,#ddd6f3,#faaca8);
  margin:0;height:100%;width:100%;
 display:grid;place-item:center;
 animation:bg-anim 5s infinite;
@@ -27,7 +26,8 @@ transition:background-position 10s;
 transition-delay:50s;
 background-size:150%;
  }
-@keyframes bg-anim { 0% {background-position:left}
+@keyframes bg-anim { 
+0% {background-position:left}
 100%  {background-position:right;}
     }
 .profile-container{margin:auto;width:600px;height:350px;position:relative;overflow:hidden;background-color:#fff
