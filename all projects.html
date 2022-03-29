@@ -15,7 +15,7 @@
       zoom:1.0;width:extend-to-zoom;
 }
     
-    .main-head { background-color:orange;
+.main-head { background-color:orange;
   grid-area: header;
 }
 .content { background-color:orange;
@@ -30,7 +30,7 @@
 
 }
     
-    .wrapper {
+.wrapper {
   display: grid;
   gap: 20px;
   grid-template-areas:
@@ -42,15 +42,15 @@
     
     
     
-    @media (min-width: 500px) {
-  .wrapper {
+@media (min-width: 500px) {
+.wrapper {
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
       "header  header"
       "nav     nav"
       "sidebar content"
   }
-  nav ul {
+nav ul {
     display: flex;
     justify-content: space-between;
   }
@@ -58,7 +58,9 @@
 
   
   
-  
+#foot{
+      min-height:100px;
+} 
 .footer-basic {top-margin:3%;padding:40px 0;background-color:#ffffff;opacity:0.9;}
 
 .footer-basic ul { padding:0; list-style:none;  text-align:center;  font-size:18px;  line-height:1.6;  margin-bottom:0;}
@@ -82,7 +84,7 @@
     
     
     
-  </style>
+</style>
   
   
 <body>
@@ -102,7 +104,11 @@
   <aside class="side">Sidebar<br></aside>
   
   <br>
+</div>
   
+
+<div id="foot">
+
 <div class="footer-basic">
           <footer>
             <div class="social">
@@ -118,10 +124,8 @@
             <p class="copyright">Mohd Faizan Mirza © 2022</p>
         </footer>
 </div>
-  
- 
+               
 </div>
-  
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
