@@ -27,13 +27,8 @@
 .side { background-color:orange;
   grid-area: sidebar;
 }
-.ad { background-color:orange;
-  grid-area: ad;
-}
-.main-footer { background-color:orange;
-  grid-area: footer;
-}
 
+}
     
     .wrapper {
   display: grid;
@@ -43,8 +38,6 @@
     "nav"
     "content"
     "sidebar"
-    "ad"
-    "footer";
 }
     
     
@@ -56,7 +49,6 @@
       "header  header"
       "nav     nav"
       "sidebar content"
-      "ad      footer";
   }
   nav ul {
     display: flex;
@@ -108,8 +100,6 @@
     <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
   </article>
   <aside class="side">Sidebar</aside>
-  <div class="ad">Advertising</div>
-  <footer class="main-footer">
   
   
 <div class="footer-basic">
@@ -128,7 +118,7 @@
         </footer>
 </div>
   
-  </footer>
+ 
 </div>
   
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
