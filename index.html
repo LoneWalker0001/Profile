@@ -6,7 +6,30 @@
 @-ms-viewport{
       zoom:1.0;width:extend-to-zoom;
 }
-
+#wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    "menu"
+    "body"
+    "footer";
+}       
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "header  header"
+      "menu  menu"
+      "body  body"
+      "footer  footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}       
+       
 #body{
       padding-top:20px;padding-bottom:40px;
       height:100%;width:100%;display:grid;
@@ -100,7 +123,7 @@ font-weight:bolder;
                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
       </head>
       <body>
-<div="wrapper">
+<div id="wrapper">
                 <div id="body">
    <center><div class="welcome"><h1><span style="color:#000">Welcome! </span> <span style="color:#fff">to Profile one</span></h1></div></center>
    <br>
