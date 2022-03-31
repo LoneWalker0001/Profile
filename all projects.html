@@ -16,7 +16,16 @@
 
 }
 #body{ min-height:400px;
-
+      padding-top:20px;padding-bottom:40px;
+      height:100%;width:100%;display:grid;
+      background:linear-gradient(45deg,#ddd6f3,#faaca8,#ddd6f3);
+      animation:bg-anim 4s infinite alternate;
+      background-size:400%; 
+}
+@keyframes bg-anim { 
+0% {background-position:left}
+50%  {background-position:bottom}
+100% {background-position:left}
 }
  
 .column {background-color:#808B96; margin-left:30;float: left;width: 366px;padding: 20px;margin-bottom:30px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);border-radius:10px}
