@@ -9,6 +9,18 @@ zoom:1.0;width:extend-to-zoom;
 @-ms-viewport{
 zoom:1.0;width:extend-to-zoom;
 }
+body{
+	padding-top:20px;padding-bottom:40px;
+      height:100%;width:100%;display:grid;
+      background:linear-gradient(45deg,#ddd6f3,#faaca8,#ddd6f3);
+      animation:bg-anim 4s infinite alternate;
+      background-size:400%; 
+}
+@keyframes bg-anim { 
+0% {background-position:left}
+50%  {background-position:bottom}
+100% {background-position:left}
+}
 .page{
 	height: 842;width: 600; background-color: white;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);border-radius:10px
 	}	
@@ -38,8 +50,7 @@ content: "";display:grid;clear: both;
 	<link rel="icon" href="image/img4.png" type="image/icon">
 </head>
 	
-<body style="height:auto;width:auto;margin-left: 0px;margin-top: 30px;margin-right: 0px;
-	background:linear-gradient(45deg,#ddd6f3,#faaca8,#ddd6f3);">
+<body>
 	<center>
 
 		<div class="page">
