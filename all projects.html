@@ -9,6 +9,26 @@ zoom:1.0;width:extend-to-zoom;
 @-ms-viewport{
 zoom:1.0;width:extend-to-zoom;
 }
+	
+	
+.body{height:auto;width:auto;margin-left: 0px;margin-top: 30px;margin-right: 0px;
+	background-color: whitesmoke;
+	background:linear-gradient(45deg,#ddd6f3,#faaca8,#ddd6f3);
+      animation:bg-anim 4s infinite alternate;
+      background-size:400%; 
+}
+@keyframes bg-anim { 
+0% {background-position:left}
+50%  {background-position:bottom}
+100% {background-position:left}
+}
+.page{
+	height: 842;width: 600; background-color: white;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);border-radius:10px
+	}	
+.heading{
+height: 70px;padding-top: 10px;padding-bottom: 10px;font-family: cursive;
+}
+
 .column {
 background-color:#fff;margin-left:30px;float: left;padding: 20px;margin-bottom:30px;cursor:pointer;
 height:auto;width:200px;opacity:0.8;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);border-radius:10px;
@@ -31,11 +51,11 @@ content: "";display:grid;clear: both;
 	<link rel="icon" href="image/img4.png" type="image/icon">
 </head>
 	
-<body style="height:auto;width:auto;margin-left: 0px;margin-top: 30px;margin-right: 0px;background-color: whitesmoke;">
+<body>
 	<center>
 
-		<div class="page" style="height: 842;width: 600; background-color: white;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);border-radius:10px">
-			<div class="heading" style="height: 70px;padding-top: 10px;padding-bottom: 10px;font-family: cursive;">
+		<div class="page">
+			<div class="heading">
          			<h1>All Project</h1> 
 			</div>	
 			<div class="row" style="height: 190px;">
