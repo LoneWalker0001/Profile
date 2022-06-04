@@ -17,14 +17,14 @@ body{
   margin: 170px auto;
 }
 .wrapper-Lg{
-  width: 100%;
+   width: 480px; height:340px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
 }
 .wrapper-Lg .title{
   height: 90px;
-  background: #16a085;
+  background: linear-gradient(45deg,#faaca8,#ddd6f3);
   border-radius: 5px 5px 0 0;
   color: #fff;
   font-size: 30px;
@@ -64,8 +64,8 @@ form .row input::placeholder{
   height: 100%;
   color: #fff;
   font-size: 18px;
-  background: #16a085;
-  border: 1px solid #16a085;
+  background: linear-gradient(45deg,#faaca8,#ddd6f3);
+  border: 1px solid #faaca8;
   border-radius: 5px 0 0 5px;
   display: flex;
   align-items: center;
@@ -75,7 +75,7 @@ form .row input::placeholder{
   margin: -8px 0 20px 0;
 }
 .wrapper-Lg form .pass a{
-  color: #16a085;
+  color: #faaca8;
   font-size: 17px;
   text-decoration: none;
 }
@@ -87,12 +87,12 @@ form .row input::placeholder{
   font-size: 20px;
   font-weight: 500;
   padding-left: 0px;
-  background: #16a085;
-  border: 1px solid #16a085;
+  background: linear-gradient(45deg,#faaca8,#ddd6f3);
+  border: 1px solid #faaca8;
   cursor: pointer;
 }
 form .button input:hover{
-  background: #12876f;
+  background: linear-gradient(45deg,#ddd6f3,#faaca8);
 }
 .wrapper-Lg form .signup-link{
   text-align: center;
