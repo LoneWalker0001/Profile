@@ -16,13 +16,13 @@ body{
   padding: 0 20px;
   margin: 170px auto;
 }
-.wrapper{
+.wrapper-Lg{
   width: 100%;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
 }
-.wrapper .title{
+.wrapper-Lg .title{
   height: 90px;
   background: #16a085;
   border-radius: 5px 5px 0 0;
@@ -33,15 +33,15 @@ body{
   align-items: center;
   justify-content: center;
 }
-.wrapper form{
+.wrapper-Lg form{
   padding: 30px 25px 25px 25px;
 }
-.wrapper form .row{
+.wrapper-Lg form .row{
   height: 45px;
   margin-bottom: 15px;
   position: relative;
 }
-.wrapper form .row input{
+.wrapper-Lg form .row input{
   height: 100%;
   width: 100%;
   outline: none;
@@ -58,7 +58,7 @@ form .row input:focus{
 form .row input::placeholder{
   color: #999;
 }
-.wrapper form .row i{
+.wrapper-Lg form .row i{
   position: absolute;
   width: 47px;
   height: 100%;
@@ -71,18 +71,18 @@ form .row input::placeholder{
   align-items: center;
   justify-content: center;
 }
-.wrapper form .pass{
+.wrapper-Lg form .pass{
   margin: -8px 0 20px 0;
 }
-.wrapper form .pass a{
+.wrapper-Lg form .pass a{
   color: #16a085;
   font-size: 17px;
   text-decoration: none;
 }
-.wrapper form .pass a:hover{
+.wrapper-Lg form .pass a:hover{
   text-decoration: underline;
 }
-.wrapper form .button input{
+.wrapper-Lg form .button input{
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -94,12 +94,12 @@ form .row input::placeholder{
 form .button input:hover{
   background: #12876f;
 }
-.wrapper form .signup-link{
+.wrapper-Lg form .signup-link{
   text-align: center;
   margin-top: 20px;
   font-size: 17px;
 }
-.wrapper form .signup-link a{
+.wrapper-Lg form .signup-link a{
   color: #16a085;
   text-decoration: none;
 }
