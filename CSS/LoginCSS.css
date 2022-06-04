@@ -52,8 +52,8 @@ body{
   transition: all 0.3s ease;
 }
 form .row input:focus{
-  border-color: #16a085;
-  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+  border-color: #faaca8;
+  box-shadow: inset 0px 0px 2px 2px #ecdbdb;
 }
 form .row input::placeholder{
   color: #999;
