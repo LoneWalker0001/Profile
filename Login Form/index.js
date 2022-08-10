@@ -55,7 +55,7 @@ document.getElementById("Login").addEventListener("click",function(){
     // Signed in 
     const user = userCredential.user;
     // ...
-    window.location.href="https://github.com/LoneWalker0001/Profile/tree/6c6a9a898da3766c110f4c78ac0b022ba4d24d83";
+    window.location.href="https://github.com/LoneWalker0001/Profile";
   })
   .catch((error) => {
     const errorCode = error.code;
