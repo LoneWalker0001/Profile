@@ -1,0 +1,134 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg,#2193b0,#6dd5ed);
+}
+.wrapper {
+    opacity: 0.85;
+    margin: 20px;
+    padding: 30px 10px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    border-radius: 20px;
+}
+.wrapper .Resp-grid{
+    height: 400px;
+    background-color:transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:920px){
+    .wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width:620px){
+    .wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wrapper .Resp-grid{
+        zoom:70%; 
+    }
+}
+@media only screen and (max-width:420px){
+    .wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wrapper .Resp-grid{
+        zoom:50%; 
+    }
+}
+
+@media only screen and (max-width:300px){
+    .wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wrapper .Resp-grid{
+        zoom:30%; 
+    }
+}
+
+
+.form_container{
+    width: auto;
+    background: linear-gradient(90deg,#6dd5ed,#2193b0);
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 70%);
+
+    transform-style: preserve-3d;
+    transition: transform 1s;
+
+}
+.form_content_front, .form_content_back{
+    position: relative;  
+    backface-visibility: hidden;
+    box-sizing: border-box;
+}
+
+.form_content_back{
+    transform: rotateY(180deg);
+    margin-top: -305px;
+    
+}
+
+#name{
+    padding-inline-start: 1.5rem;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    }
+
+#email_l{
+padding-inline-start: 1.5rem;
+height: 3rem;
+width: 25rem;
+border-radius: 1rem;
+border: 1px solid rgb(255, 255, 255);
+}
+
+#email_s{
+padding-inline-start: 1.5rem;
+height: 3rem;
+width: 25rem;
+border-radius: 1rem;
+border: 1px solid rgb(255, 255, 255);
+}
+#password_l{
+    padding-inline-start: 1.5rem;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(255, 253, 253);
+}
+#password_s{
+    padding-inline-start: 1.5rem;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(255, 253, 253);
+}
+button{margin-top: 0.7rem;
+    height: 3rem;
+    padding: 0 40px;
+    border-radius: 1rem;border:none;
+}
+button:hover{
+    background-color:rgb(0, 0, 0);color:white;
+    border: 0px solid rgb(255, 255, 255);
+}
+.Login{
+    background-color:rgb(7, 221, 0);color:white;
+    border: 0px solid rgb(255, 255, 255);
+}
+.Login:hover{
+    background-color:rgb(0, 0, 0);color:white;
+    border: 0px solid rgb(255, 255, 255);
+}
