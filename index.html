@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">  
+
+    <title>Profile_One_Login</title>
+</head>
+<body>
+    <center><div class="welcome"><h1><span style="color:#000">Welcome! </span> <span style="color:rgb(255, 255, 255)">to Profile one</span></h1></div></center>
+    <div class="wrapper">
+        <div class="Resp-grid">
+            <img src="login.gif">
+        </div>
+        <div class="Resp-grid">
+            <div class="form_container" id="card">
+
+                <div id="loginForm" class="form_content_front">
+                    <center><h1><span style="color:#000">Account</span> <span style="color:rgb(255, 255, 255)">Login</span></h1></center>
+                    <input type="email" placeholder="Email here" id="email_l" required><br><br>
+                    <input type="password" placeholder="Password here" id="password_l" required><br><br>
+                    <br>           
+                  
+                    <center><button class="Login" type="submit" id="Login"> Log in </button>
+                    <button onclick="OR()" id="SAcc">Sign up new user</button></center>              
+                </div>
+              
+                <div id="loginForm" class="form_content_back">
+                    <center><h1><span style="color:#000">Account</span> <span style="color:rgb(255, 255, 255)">SignUp</span></h1></center>
+                    <input type="text" placeholder="Your name here" id="name" required><br><br>
+                    <input type="email" placeholder="Email here" id="email_s" required><br><br>
+                    <input type="password" placeholder="Password here" id="password_s" required><br><br>
+                    <p id="indicate" style="color:red;margin: 0px;"></p>               
+                  
+                    <center><button class="Login" type="submit" id="Register"> Register </button>
+                    <button onclick="OL()" id="NAcc">Already have an account</button></center>                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script type="module" src="index.js"></script>
+    <script>
+     
+     
+     var card = document.getElementById('card');
+        
+        function OR(){
+            card.style.transform = "rotateY(-180deg)";
+        }
+        function OL(){
+            card.style.transform = "rotateY(-0deg)";  
+        }
+        
+    </script>
+</body>
+</html>
