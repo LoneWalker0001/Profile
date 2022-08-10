@@ -55,7 +55,7 @@ document.getElementById("Login").addEventListener("click",function(){
     // Signed in 
     const user = userCredential.user;
     // ...
-    window.location.href="https://github.com/LoneWalker0001/Profile";
+    window.location.href="https://www.instagram.com/being_faizan007/";
   })
   .catch((error) => {
     const errorCode = error.code;
