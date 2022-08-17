@@ -11,9 +11,9 @@ let sea = document.getElementById( "S2");
 window.addEventListener( 'scroll' , function(){
 var value = window.scrollY;
 bg.style.top = value*0.8 +'px';
-cloud0.style.left = -value * 0.8 + 'px';
-cloud1.style.left =  value * 0.6 + 'px';
-cloud2.style.left = -value * 0.5 + 'px';
+cloud0.style.left = -value * 0.9 + 'px';
+cloud1.style.left =  value * 0.5 + 'px';
+cloud2.style.left = -value * 0.4 + 'px';
 
 bird1.style.left = value * 0.9 + 'px';
 bird2.style.left = value * 0.6 + 'px';
