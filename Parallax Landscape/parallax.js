@@ -16,8 +16,8 @@ cloud1.style.left =  value * 0.6 + 'px';
 cloud2.style.left = -value * 0.5 + 'px';
 
 bird1.style.left = value * 0.9 + 'px';
-bird2.style.left = value * 0.7 + 'px';
-bird3.style.left = value * 0.6 + 'px';
+bird2.style.left = value * 0.6 + 'px';
+bird3.style.left = value * 0.8 + 'px';
 
 mountain.style.top = value * 0.22 + ' px' ;
 sea.style.top = value * 0.20 + 'px' ;
