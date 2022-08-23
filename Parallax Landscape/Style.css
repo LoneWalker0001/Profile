@@ -8,7 +8,7 @@
     body
     {
     background: #579cff;
-    max-height: 1500px;
+    min-height: 1500px;
     }  
     #welcome{
         font-size: 150%;
