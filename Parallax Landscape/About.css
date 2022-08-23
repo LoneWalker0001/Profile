@@ -41,10 +41,11 @@
     letter-spacing: 2px;
     margin: 1px 35px;
     color: #ffffff !important;
-    background-color: black !important;
+    background-color: #1f2125f0;
     width: 15em;
     padding: 10px 1px;
     height: 3em;
+    border-radius: 25px;
     text-decoration: none;
 }
 #wrapper2 .Resp-grid1 {
@@ -74,7 +75,7 @@
 }
    
 button{margin-top: 10px;
-    background-color:#527dff;
+    background-color: #1f2125f0;
     color:#ffffff;
     height: 30px;
     max-width: 55%;
