@@ -114,7 +114,22 @@ ul{
 	zoom:140%;
 } 
 }
-
+@media(max-width: 380px){
+  .footer-col{
+    width: 100%;
+}
+	.form{
+	zoom:140%;
+} 
+}
+@media(max-width: 280px){
+  .footer-col{
+    width: 100%;
+}
+	.form{
+	zoom:110%;
+} 
+}
 
 
 
