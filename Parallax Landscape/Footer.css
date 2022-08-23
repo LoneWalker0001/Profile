@@ -103,7 +103,7 @@ ul{
     margin-bottom: 30px;
 }
 .form{
-	zoom:100%;
+	zoom:120%;
 } 
 }
 @media(max-width: 574px){
@@ -111,7 +111,7 @@ ul{
     width: 100%;
 }
 	.form{
-	zoom:140%;
+	zoom:155%;
 } 
 }
 @media(max-width: 380px){
