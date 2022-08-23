@@ -108,8 +108,11 @@ ul{
 }
 @media(max-width: 574px){
   .footer-col{
-    width: 130%;
+    width: 100%;
 }
+	.form{
+	zoom:120%;
+} 
 }
 
 
