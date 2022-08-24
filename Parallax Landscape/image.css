@@ -92,13 +92,15 @@
 }
 @media only screen and (max-width:980px){
     #wrapper3{
-        grid-template-columns: repeat(2,1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
     
     }
     .image:focus{flex:8;}
     .img-acc{
         height: 58vh;
-        width: 40rem;
+        width: 100%;
     }
     
 }
