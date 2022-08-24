@@ -1,0 +1,206 @@
+.img-acc{
+    height: 58vh;
+    display: flex;
+    width: 500px;
+}
+#wrapper3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+    margin: 60px 40px;
+}
+.imgtext{
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 20px 0 0;
+    text-align: left;
+}
+.image{
+    flex: 1;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 0px solid #222;
+    position: relative;
+}
+.image1{background-image: url("./img/image (1).jpg");}
+.image2{background-image: url("./img/image (2).jpg");}
+.image3{background-image: url("./img/image (3).jpg");}
+.image4{background-image: url("./img/image (4).jpg");}
+.image5{background-image: url("./img/image (5).jpg");}
+.image6{background-image: url("./img/image (6).jpg");}
+
+.image p{
+    position: absolute;border-radius: 15px;
+    bottom: -40px;left: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    white-space: nowrap;
+}
+
+.image:hover{flex:10.5;}
+.image:hover p{
+    background-color: #00000099;
+    color: #fff;
+    transform: rotate(0deg);
+}
+
+@media only screen and (max-width:1480px){
+    #wrapper3{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .image:focus{flex:10.5;}
+    .img-acc{
+        height: 58vh;
+        width: 40rem;
+    }
+    
+}
+@media only screen and (max-width:1180px){
+    #wrapper3{
+        grid-template-columns: repeat(2,1fr);
+        zoom:90%;
+    }
+    .image:focus{flex:8;}
+    .img-acc{
+        height: 58vh;
+        width: 40rem;
+    }
+    
+}@media only screen and (max-width:1080px){
+    #wrapper3{
+        grid-template-columns: repeat(2,1fr);
+        zoom:80%;
+    }
+    .image:focus{flex:8;}
+    .img-acc{
+        height: 58vh;
+        width: 40rem;
+    }
+    
+}
+@media only screen and (max-width:980px){
+    #wrapper3{
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .image:focus{flex:8;}
+    .img-acc{
+        height: 58vh;
+        width: 40rem;
+    }
+    
+}
+@media only screen and (max-width:880px){
+    #wrapper3{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .image:focus{flex:8;}
+    .img-acc{
+        height: 58vh;
+        width: 100%;
+
+    }
+    
+}
+@media only screen and (max-width:780px){
+    #wrapper3{
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .image:focus{flex:7;}
+    .img-acc{
+        height: 58vh;
+        width: 100%;
+
+    }
+    
+}
+@media only screen and (max-width:680px){
+    #wrapper3{ 
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .image:focus{flex:7}
+
+    .img-acc{display: flex;
+        flex-direction: column;
+        height: 45em;
+        width: 100%;
+    }
+    .image{
+        margin-top:1px;
+        display: flex;
+        
+    }
+    .image p{
+        bottom: 0px;
+        transform: rotate(0deg);
+
+    }
+}  
+
+@media only screen and (max-width:480px){
+    #wrapper3{ 
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .image:focus{flex:3}
+
+    .img-acc{display: flex;
+        flex-direction: column;
+        height: 40em;
+        width: 100%;
+    }
+    .image{
+        margin-top:1px;
+        display: flex;
+        
+    }
+    .image p{
+        bottom: 0px;
+        transform: rotate(0deg);
+        height:2.5em;
+
+    }
+} 
+@media only screen and (max-width:380px){
+    #wrapper3{ 
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .image:focus{flex:3}
+
+    .img-acc{display: flex;
+        flex-direction: column;
+        height: 35em;
+        width: 100%;
+    }
+    .image{
+        margin-top:1px;
+        display: flex;
+        
+    }
+    .image p{
+        bottom: 0px;
+        transform: rotate(0deg);
+        height:2em;
+
+    }
+} 
