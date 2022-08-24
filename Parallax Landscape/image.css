@@ -92,10 +92,9 @@
 }
 @media only screen and (max-width:980px){
     #wrapper3{
-        display: flex;
+       display: flex;
         flex-direction: column-reverse;
         gap: 30px;
-    
     }
     .image:focus{flex:8;}
     .img-acc{
@@ -152,8 +151,12 @@
     .image p{
         bottom: 0px;
         transform: rotate(0deg);
-
     }
+.image:hover p{
+    background-color: #00000099;
+    color: #fff;
+    transform: rotate(-90deg);
+              }
 }  
 
 @media only screen and (max-width:480px){
@@ -180,6 +183,11 @@
         height:2.5em;
 
     }
+.image:hover p{
+    background-color: #00000099;
+    color: #fff;
+    transform: rotate(-90deg);
+              }
 } 
 @media only screen and (max-width:380px){
     #wrapper3{ 
@@ -205,4 +213,9 @@
         height:2em;
 
     }
+.image:hover p{
+    background-color: #00000099;
+    color: #fff;
+    transform: rotate(-90deg);
+              }
 } 
