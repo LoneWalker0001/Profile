@@ -70,7 +70,7 @@
     box-shadow:5px 10px 18px rgba(0, 0, 0, 0.250);
 }
 #cv:hover{
-   transform: scale(1.02);
+   transform: scale(1.02);filter: grayscale(100%);
    filter: drop-shadow(8px 8px 10px gray);
 }
    
