@@ -106,21 +106,38 @@ ul{
  .footer-col .social-links a{
 	zoom: 2.4;}
 }
+
+@media(max-width: 830px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.form{zoom:120%;} 
+ .footer-col .social-links a{
+	zoom: 2.7;}
+}
+
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
 }
 .form{	zoom:155%;} 
  .footer-col .social-links a{
-	zoom: 1.8;}
+	zoom: 1.85;}
 }
+
+@media(max-width: 418px){
+ .footer-col .social-links a{
+	zoom: 0.94;}
+}
+
 @media(max-width: 380px){
   .footer-col{
     width: 100%;
 }
 .form{zoom:140%;} 
  .footer-col .social-links a{
-	zoom: 1.5;}
+	zoom: 1.66;}
 }
 @media(max-width: 280px){
   .footer-col{
