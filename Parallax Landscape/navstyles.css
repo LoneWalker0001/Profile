@@ -19,6 +19,7 @@ body {
 }
 
 .brand-title {
+    curser:default;
     font-weight: bold;
     font-size: 1.5rem;
     margin: .5rem;
