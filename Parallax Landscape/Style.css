@@ -70,6 +70,8 @@
     .empty{
         padding-top:640px;
     }
+
+/*--------------------------------------------------------------------responsive layout ----------------------------------------------------------------*/
 @media only screen and (max-width:1680px){
         .empty{
             padding-top:640px;
@@ -82,7 +84,7 @@
         }  
         #welcome{
             font-size: 150%;
-            padding-top: 60px;
+            padding-top: 80px;
         } 
 }
 
@@ -98,7 +100,7 @@
     }  
     #welcome{
         font-size: 150%;
-        padding-top: 60px;
+        padding-top: 80px;
     }  
 }
 
@@ -114,7 +116,7 @@
     }  
     #welcome{
         font-size: 150%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 }
 @media only screen and (max-width:1080px){
@@ -129,7 +131,7 @@
     }  
     #welcome{
         font-size: 140%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 }
 @media only screen and (max-width:980px){
@@ -144,7 +146,7 @@
     }  
     #welcome{
         font-size: 135%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 }
 @media only screen and (max-width:880px){
@@ -159,7 +161,7 @@
     }  
     #welcome{
         font-size: 130%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 } 
 @media only screen and (max-width:780px){
@@ -174,7 +176,7 @@
     }  
     #welcome{
         font-size: 125%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 } 
 
@@ -190,7 +192,7 @@
     }  
     #welcome{
         font-size: 120%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
 }
 @media only screen and (max-width:580px){
@@ -202,7 +204,7 @@
     }  
     #welcome{
         font-size: 115%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
         .empty{
             padding-top:250px;
@@ -218,7 +220,7 @@
     }  
     #welcome{
         font-size: 100%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
     .empty{
         padding-top:210px;
@@ -234,7 +236,7 @@
     }  
     #welcome{
         font-size: 80%;
-        padding-top: 60px;
+        padding-top: 80px;
     } 
     .empty{
         padding-top:170px;
@@ -252,6 +254,6 @@
     }  
     #welcome{
         font-size: 60%;
-        padding-top: 50px;
+        padding-top: 80px;
     } 
 }
