@@ -92,7 +92,7 @@ button:hover{
 .content1{
     opacity: 0.977376;
     left: 18.0995px;
-    margin: 10px 31px;
+    margin: 10px 10px;
 }
 
 @media only screen and (max-width:1280px){
@@ -306,7 +306,7 @@ button:hover{
             max-width: 85%;
     }
      .readmore {
-    padding:8px 1px;
+    padding:15px 1px;
     }
 
 }
@@ -320,8 +320,8 @@ button:hover{
         max-width: 245px;
     }
     #wrapper1 .Resp-grid1 {
-        padding: 15px 15px;
-        font-size: 0.55em;
+        padding: 15px 30px;
+        font-size: 0.65em;
     }
     #wrapper1 .Resp-grid2 {
         border-radius: 25px;
@@ -338,7 +338,7 @@ button:hover{
     }
 
     .readmore {
-    padding:7px 1px;
+    padding:15px 1px;
     }
 }
 @media only screen and (max-width:280px){
@@ -368,6 +368,6 @@ button:hover{
             max-width: 100%;
     }
      .readmore {
-    padding:6px 1px;
+    padding:15px 1px;
     }
 }
