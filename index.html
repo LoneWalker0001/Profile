@@ -11,112 +11,7 @@
     <link rel = "icon" href ="Parallax Landscape/img/Logo.svg" type = "image/x-icon">
        <title>Profile_One</title>
 </head>
-
-
-<style>
-
-
-
-*{
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
-}
-header{
-    background-color: #333333db;
-    position: fixed;
-    width: 100%;
-    z-index: 100000;
-}
-li{
-     List-style: none;
-}
-
-a{
-     color: white;
-     font-size: 20px;
-     text-decoration: none;
-}
-
-.navbar{
-     min-height: 70px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding:0 24px;
-}
-.nav-menu{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     gap: 60px;
-}
-
-.nav-branding{
-font-size: 2rem;
-}
-.nav-link{
-transition: 0.7s ease;
-}
-.nav-link:hover{
-color: dodgerblue;
-}
-
-.hamburger{
-display: none;
-cursor: pointer;
-}
-
-.bar{
-   display: block;
-   width: 30px;
-   height: 4px;
-   margin: 5px auto;
-   -webkit-transition: all 0.3s ease-in-out;
-   transition: all 0.3s ease-in-out; 
-   background-color:white;
-   border-radius:2px;
-}
-
-@media(max-width:680px){
-.hamburger{
-      display: block;
-      }
-.hamburger.active .bar:nth-child(2){
-      opacity: 0;
-      }
-.hamburger.active .bar:nth-child(1){
-      transform: translateY(9px) rotate(45deg);
-      }
-.hamburger.active .bar:nth-child(3){
-       transform: translateY(-9px) rotate(-45deg);
-       }
-.nav-menu{
-       position:fixed;
-       Left: -100%;
-       top: 70px;
-       gap: 0;
-       flex-direction: column;
-       background-color: #333333db;
-       width: 100%;
-       text-align: center;
-       transition: 0.3s;
-         }    
-}
-
-.nav-item{
-        margin: 16px 0;
-         }
-.nav-menu.active{
-          Left: 0;
-          }  
-}
-</style>
-
-</head>
-
 <body>
-
 <header>
 
 <nav class="navbar">
@@ -137,7 +32,9 @@ cursor: pointer;
    </div>
 </nav>
 </header>
- <div id="welcome"><h1><span style="color:#000">Welcome </span> <span style="color:#fff">to Profile one</span></h1></div>
+ <div id="welcome"><h1><span style="color:#000">Welcome </span> <span style="color:#fff">to Profile one</span><br>
+<span style="color: #00467d;">Portfolio</span></h1></div>
+    <section class="parallax">
         <section class="parallax">
         <img src="./Parallax Landscape/6Back.png" id="bg">
         <img src="./Parallax Landscape/5Mountain.png" id="M2">
@@ -194,24 +91,6 @@ cursor: pointer;
     <script src="./parallax.js"></script>
     <script src="./autotype.js"></script>
     <script src="./toggle.js"></script>
-
-
-<script>
-const hamburger = document.querySelector(" .hamburger");
-const navMenu = document.querySelector(".nav-menu");
-hamburger.addEventListener("click" , () => {
-hamburger.classList.toggle("active");
-navMenu.classList.toggle("active");
-})
-document.querySelectorAll(" .nav-link").forEach(n => n.
-addEventListener( "click", () => {
-hamburger.classList.remove("active");
-navMenu.classList.remove("active");
-}))
-
-
-
-
 </script>
 </body>
 </html>
