@@ -37,6 +37,11 @@ a{
 .nav-branding{
 font-size: 2rem;
 }
+#logo{
+    height: 50px;
+    width: 50px;
+    margin: 0px 0px -15px 0px;
+}
 .nav-link{
 transition: 0.7s ease;
 }
