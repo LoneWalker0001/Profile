@@ -225,6 +225,14 @@
     .empty{
         padding-top:210px;
     }
+        .nav-branding {
+    font-size: 1.9rem;
+    }
+    #logo {
+    height: 48px;
+    width: 48px;
+    margin: 0px 0px -12px 0px;
+    }
 }
 
 @media only screen and (max-width:380px){
@@ -241,6 +249,14 @@
     .empty{
         padding-top:170px;
     }
+    .nav-branding {
+    font-size: 1.8rem;
+    }
+    #logo {
+    height: 45px;
+    width: 45px;
+    margin: 0px 0px -12px 0px;
+    }
 }
 @media only screen and (max-width:280px){
     .empty{
@@ -256,4 +272,12 @@
         font-size: 60%;
         padding-top: 80px;
     } 
+    .nav-branding {
+    font-size: 1.5rem;
+    }
+    #logo {
+    height: 40px;
+    width: 40px;
+    margin: 0px 0px -10px 0px;
+    }
 }
