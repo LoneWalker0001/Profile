@@ -1,4 +1,4 @@
-html, body {margin: -60px 0 0 0;padding: 100px 0 0 0px;animation: animate 10s  infinite;animation-direction: alternate;color: rgb(119, 110, 101);font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;font-size: 18px;zoom: 1.355;}
+html, body {margin: -60px 0 0 0;padding: 70px 0 0 0px;animation: animate 10s  infinite;animation-direction: alternate;color: rgb(119, 110, 101);font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;font-size: 18px;zoom: 1.355;}
 
 @keyframes animate{
 0%{
