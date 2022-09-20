@@ -71,7 +71,7 @@
 }
 #cv:hover{
    transform: scale(1.02);filter: grayscale(100%);
-   filter: drop-shadow(8px 8px 10px blue);
+   filter: drop-shadow(8px 8px 8px grey);
 }
    
 button{margin-top: 10px;
