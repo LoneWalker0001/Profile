@@ -332,15 +332,16 @@ button:hover{
         padding: 15px 15px;
     }
     #cv{
-        max-width: 285px;
+        max-width: 340px;
     }
     #wrapper1 .Resp-grid1 {
         padding: 15px 30px;
         font-size: 0.65em;
     }
     #wrapper1 .Resp-grid2 {
-        border-radius: 25px;
-            height: 200px;
+    border-radius: 25px;
+    height: 265px;
+    width: 100%;
     }
     #wrapper2 .Resp-grid1 {
         padding: 15px 15px;
