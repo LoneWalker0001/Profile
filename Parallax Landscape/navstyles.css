@@ -42,9 +42,7 @@ font-size: 2rem;
     width: 50px;
     margin: 0px 0px -15px 0px;
 }
-.nav-link{
-transition: 0.7s ease;
-}
+.nav-link{transition: 0.7s ease;background: linear-gradient(230deg,#f8f9d280, #e7d9fc00);border-radius: 15px;padding: 2px 8px;}
 .nav-link:hover{
 color: dodgerblue;
 }
