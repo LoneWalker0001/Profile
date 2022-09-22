@@ -1,6 +1,6 @@
 #wrapper1 {
     background: linear-gradient(45deg,#f8f9d2cc, #e7d9fc33);
-    padding: 40px 80px;
+    padding: 80px 80px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2,1fr);
@@ -11,7 +11,7 @@
 }
 #wrapper2{
     background: linear-gradient(230deg,#f8f9d2cc, #e7d9fc33);
-    padding: 40px 80px;
+    padding: 80px 80px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2,1fr);
