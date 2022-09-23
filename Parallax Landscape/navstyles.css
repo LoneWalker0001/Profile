@@ -5,7 +5,7 @@
      box-sizing: border-box;
 }
 header{
-    background-color: #00020af0;
+    background-color: #0a0f2de6;
     position: fixed;
     width: 100%;
     z-index: 100000;
@@ -84,7 +84,7 @@ cursor: pointer;
        top: 70px;
        gap: 0;
        flex-direction: column;
-       background-color: #00020af0;
+       background-color: #0a0f2de6;
        width: 100%;
        text-align: center;
        transition: 0.3s;
