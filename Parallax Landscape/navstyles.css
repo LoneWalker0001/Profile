@@ -77,16 +77,17 @@ cursor: pointer;
        transform: translateY(-9px) rotate(-45deg);
        }
 .nav-menu{
-       position:fixed;
+       position:
+       fixed;
        Left: -100%;
        top: 70px;
        gap: 0;
        flex-direction: column;
-       background-color: #333333db;
+       background-color: #00020aa6;
        width: 100%;
        text-align: center;
        transition: 0.3s;
-         }    
+       }    
 }
 
 .nav-item{
