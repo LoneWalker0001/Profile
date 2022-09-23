@@ -42,9 +42,10 @@ font-size: 2rem;
     width: 50px;
     margin: 0px 0px -15px 0px;
 }
-.nav-link{transition: 0.7s ease;background: linear-gradient(230deg,#f8f9d280, #e7d9fc00);border-radius: 15px;padding: 2px 8px;}
+.nav-link{transition: 0.8s ease;background: linear-gradient(230deg,#f8f9d247, #e7d9fc00);border-radius: 15px;padding: 2px 8px;}
 .nav-link:hover{
-color: dodgerblue;
+color: #00093a;
+background: linear-gradient(230deg, #e7d9fc00,#f8f9d2a8);
 }
 
 .hamburger{
