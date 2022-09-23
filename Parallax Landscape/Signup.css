@@ -52,14 +52,16 @@
     margin: -20px 15px;
     font-size: 15px;
 }
-.Login{margin-top: 22px;
-    height: 2rem;
-    padding: 0 40px;
-    border-radius: 1rem;border:none;
+.Login{
+    margin-top: 22px;
+    padding: 0 39px;
+    padding: 5px 40px;
+    border-radius: 1rem;
+    border:
+    none;
     font-size: 15px;
 }
 button:hover{
     background-color:#ffffff;color:black;font-weight:bolder;
     border: 0px solid #ffffff;
 }
-
