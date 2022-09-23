@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 .container{
 	max-width: 1170px;
+	padding: 1px;
 	margin:
 	auto;
 	transform: skew(-10deg, -10deg);
@@ -62,7 +63,7 @@ ul{
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
-	margin: 10px 15px 10px 15px;
+	margin: 0px 0px 10px 10px;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
@@ -114,7 +115,9 @@ ul{
 }
 .form{zoom:120%;} 
  .footer-col .social-links a{
-	zoom: 2;}
+	zoom: 2.5;
+	margin: 0 10px 10px 0;
+	}
 }
 
 @media(max-width: 830px){
@@ -125,7 +128,8 @@ ul{
 }
 .form{zoom:120%;} 
  .footer-col .social-links a{
-	zoom: 2.7;}
+	zoom: 2.5;
+	}
 }
 
 @media(max-width: 574px){
@@ -138,15 +142,18 @@ ul{
     }
 .form{	zoom:155%;} 
  .footer-col .social-links a{
-	zoom: 1.85;}
+	zoom: 2.2;
+	margin: 0 9px 0 0;
+	}
 }
 
 
 @media(max-width: 418px){
  .footer-col .social-links a{
-	zoom: 1.7;   
-    transform: none;
- }
+	zoom: 1.6;
+	transform: none;
+	margin: 0 4px 0px 0;
+	}
   .container {
     transform: none;
     }
@@ -159,7 +166,9 @@ ul{
 }
 .form{zoom:140%;} 
  .footer-col .social-links a{
-	zoom: 1.55;}
+	zoom: 1.5;
+	margin: 0 5px 5px 0px;
+	}
   .container {
     transform: none;
     }
