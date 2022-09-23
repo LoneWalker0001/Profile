@@ -192,8 +192,8 @@
     .img-acc{
         display: flex;
         flex-direction: column;
-        height: 55em;
-        width: 85%;
+        height: 45em;
+        width: 80%;
     }
     .image{
         margin-top:1px;
