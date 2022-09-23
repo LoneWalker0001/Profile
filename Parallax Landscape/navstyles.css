@@ -5,7 +5,7 @@
      box-sizing: border-box;
 }
 header{
-    background-color: #00020aa6;
+    background-color: #00020af0;
     position: fixed;
     width: 100%;
     z-index: 100000;
@@ -44,7 +44,7 @@ font-size: 2rem;
 }
 .nav-link{transition: 0.8s ease;background: linear-gradient(230deg,#f8f9d247, #e7d9fc00);border-radius: 15px;padding: 2px 8px;}
 .nav-link:hover{
-color: #00093a;
+color: #00020af0;
 background: linear-gradient(230deg, #e7d9fc00,#f8f9d2a8);
 }
 
@@ -84,7 +84,7 @@ cursor: pointer;
        top: 70px;
        gap: 0;
        flex-direction: column;
-       background-color: #00020aa6;
+       background-color: #00020af0;
        width: 100%;
        text-align: center;
        transition: 0.3s;
