@@ -74,7 +74,7 @@
 /*--------------------------------------------------------------------responsive layout ----------------------------------------------------------------*/
 @media only screen and (max-width:1680px){
         .empty{
-            padding-top:640px;
+            padding-top: 547px;
         }
         #Text
         {
@@ -90,7 +90,7 @@
 
 @media only screen and (max-width:1280px){
     .empty{
-        padding-top:550px;
+        padding-top: 510px;
     }
     #Text
     {
@@ -106,7 +106,7 @@
 
 @media only screen and (max-width:1180px){
     .empty{
-        padding-top:510px;
+        padding-top: 480px;
     }
     #Text
     {
@@ -121,7 +121,7 @@
 }
 @media only screen and (max-width:1080px){
     .empty{
-        padding-top:480px;
+        padding-top: 437px;
     }
     #Text
     {
@@ -136,7 +136,7 @@
 }
 @media only screen and (max-width:980px){
     .empty{
-        padding-top:420px;
+        padding-top: 390px;
     }
     #Text
     {
@@ -151,7 +151,7 @@
 }
 @media only screen and (max-width:880px){
     .empty{
-        padding-top:380px;
+        padding-top: 352px;
     }
     #Text
     {
@@ -166,7 +166,7 @@
 } 
 @media only screen and (max-width:780px){
     .empty{
-        padding-top:330px;
+        padding-top: 306px;
     }
     #Text
     {
@@ -182,7 +182,7 @@
 
 @media only screen and (max-width:680px){
     .empty{
-        padding-top:300px;
+        padding-top: 258px;
     }
     #Text
     {
@@ -207,7 +207,7 @@
         padding-top: 80px;
     } 
         .empty{
-            padding-top:250px;
+            padding-top: 218px;
         }
     }
 
@@ -223,7 +223,7 @@
         padding-top: 80px;
     } 
     .empty{
-        padding-top:210px;
+        padding-top: 179px;
     }
         .nav-branding {
     font-size: 1.9rem;
@@ -247,7 +247,7 @@
         padding-top: 80px;
     } 
     .empty{
-        padding-top:170px;
+        padding-top: 156.25px;
     }
     .nav-branding {
     font-size: 1.8rem;
