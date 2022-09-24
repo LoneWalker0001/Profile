@@ -175,7 +175,7 @@
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => document.getElementById("indicate").innerHTML="Thanks for Your feed back")
-          return true;
+          return false;
           .catch(error => console.error('Error!', error.message))
       })
     </script>      
