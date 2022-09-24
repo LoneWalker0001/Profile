@@ -143,7 +143,7 @@ ul{
 .form{	zoom:155%;} 
  .footer-col .social-links a{
 	zoom: 2.2;
-	margin: 0 9px 0 0;
+	margin: 0 0px 0 0;
 	}
 }
 
@@ -152,7 +152,7 @@ ul{
  .footer-col .social-links a{
 	zoom: 1.6;
 	transform: none;
-	margin: 0 4px 0px 0;
+	margin: 0 0px 0px 0;
 	}
   .container {
     transform: none;
@@ -168,7 +168,7 @@ ul{
 .form{zoom:140%;} 
 .footer-col .social-links a{
 	    zoom: 1.5;
-            margin: 0 10px 5px 0px;
+            margin: 0 5px 5px 0px;
      }
   .container {
     transform: none;
