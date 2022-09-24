@@ -163,12 +163,13 @@ ul{
   .footer-col{
     width: 100%;
     transform: none;
+    padding: 0 0 0 0;
 }
 .form{zoom:140%;} 
- .footer-col .social-links a{
-	zoom: 1.5;
-	margin: 0 5px 5px 0px;
-	}
+.footer-col .social-links a{
+	    zoom: 1.5;
+            margin: 0 10px 5px 0px;
+     }
   .container {
     transform: none;
     }
