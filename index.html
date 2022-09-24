@@ -138,12 +138,16 @@
             <div class="footer-col">
            <h4 id="FormLoc"><span style="color:#383434;padding: 0 10px;background:white;border-radius: 13px;">Site</span> <span style="color:rgb(255, 255, 255)">Feedback</span></h4>
            <div class="form">
-            <input type="text" placeholder="Your name here" id="name" required=""><br>
-            <input type="email" placeholder="Email here" id="email" required=""><br>
-            <textarea type="text" placeholder="Write something..." id="feedback" required="" style="height: 56px;"></textarea>
+            <form method="post" autocomplete="off" name="Profile One Feedback">
+
+            <input type="text" name="Name" placeholder="Your name here" id="name" required><br>
+            <input type="email" name="Email" placeholder="Email here" id="email" required><br>
+            <textarea type="text" name="Feedback" placeholder="Write something..." id="feedback" required></textarea>
             <br><br>
-            <p id="indicate"></p>               
-           <button class="Login" type="submit" id="Register">Submit</button>
+            <p id="indicate"></p>         
+           <button type="submit" name="submit" class="Login">Submit</button>
+
+           </form>
            </div>
           </div>
             
@@ -163,7 +167,17 @@
         </div>
       </div>
         </footer>  
-      
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwa_vULKGFo_ybvRztPvSPZbc4WBsGfe4NDyI62RNmnFbpLsjC3OPujiY4mkK8aoa6K4A/exec'
+      const form = document.forms['Profile One Feedback']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => document.getElementById("indicate").innerHTML="Thanks for Your feed back")
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>      
       <script src="./Parallax Landscape/Navscript.js" defer=""></script>
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <script src="./Parallax Landscape/parallax.js"></script>
