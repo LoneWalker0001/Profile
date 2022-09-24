@@ -24,7 +24,7 @@
 }
 
 
-#email_s{
+#email{
     padding-inline-start: 0.8rem;
     height: 2rem;
     width: 100%;
@@ -47,7 +47,7 @@
 }
 #indicate{
     color: rgb(47 255 38);
-    margin: -20px 15px;
+    margin: -25px 0 -15px 30px;
     font-size: 15px;
 }
 .Login{
