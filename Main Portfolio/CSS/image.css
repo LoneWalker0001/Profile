@@ -2,8 +2,8 @@
     height: 50vh;
     display: flex;
     width: 800px;
+    margin: 0;
     zoom: 0.8;
-  
 }
 #wrapper3{
     display: grid;
@@ -71,13 +71,13 @@
     }
     .image:focus{flex:10.5;}
     .img-acc{
-        height: 80vh;
-        width: 100%;
+        height: 75vh;
+        width: 125%;
         scale: 0.8;
-        margin: 0px 0px 0 110px;
+        margin: 0px 0px 0 0px;
     }
     .img-content{
-        margin: 85px 0px 0px 50px;
+        margin: 0 0px 0px 60px;
     }
     
 }
@@ -87,9 +87,12 @@
         zoom:90%;
     }
     .image:focus{flex:8;}
+        .img-content{
+        margin: 0px 0px 0px 80px;
+        }
     .img-acc{
-         height: 80vh;
-         width: 100%;
+         height: 75vh;
+         width: 120%;
     }
     
 }@media only screen and (max-width:1080px){
@@ -99,11 +102,11 @@
     }
     .image:focus{flex:8;}
     .img-acc{
-        height: 80vh;
-        width: 110%;
+        height: 70vh;
+        width: 120%;
     }
     .img-content{
-        margin: 75px 0px 0px 50px;
+        margin: -40px 0px 0px 80px;
     }
     
 }
@@ -115,13 +118,12 @@
     }
     .image:focus{flex:8;}
     .img-acc{
-        height: 70vh;
-        width: 120%;
+        height: 60vh;
+        width: 115%;
         scale: 0.9;
-        margin: 0 0 0px 55px;
     }
     .img-content{
-        margin: 105px 0px 0 100px;
+        margin: -65px 0px 0px 60px;
     }
     
 }
@@ -132,9 +134,14 @@
         gap: 30px;
     }
     .image:focus{flex:8;}
+        .img-content{
+        padding: 0px 0px 0px 45px;
+        }
+    
     .img-acc{
-        height: 80vh;
-        width: 80%;
+        height: 85vh;
+        width: 100%;
+        margin: 0;
     }
     
 }
@@ -146,7 +153,11 @@
     .image:focus{flex:7;}
     .img-acc{
         height: 75vh;
-        width: 80%;
+        width: 100%;
+        margin: 0;
+    }
+        .img-content{
+        padding: 0px 45px;
     }
     
 }
@@ -161,14 +172,18 @@
     .img-acc{
         display: flex;
         flex-direction: column;
-        height: 60em;
-        width: 80%;
+        height: 65em;
+        width: 100%;
+        margin: 0;
     }
     .image{
         margin-top:1px;
-        display: flex;
-        
+        display: flex; 
     }
+        .img-content{
+        padding: 0px 0px 0px 30px;
+        }
+    
     .image p{
         bottom: 0px;
         transform: rotate(0deg);
@@ -192,8 +207,13 @@
         display: flex;
         flex-direction: column;
         height: 45em;
-        width: 80%;
+        width: 100%;
+        margin: 0;
     }
+     .img-content{
+    padding: 0px auto;
+    }
+    
     .image{
         margin-top:1px;
         display: flex;
@@ -225,14 +245,12 @@
     .img-acc{
         display: flex;
         flex-direction: column;
-        height: 50em;
-        width: 85%;
+        height: 65em;
+        width: 100%;
         scale: 0.75;
-        margin: -80px 0px 30px 45px;
     }
     .img-content{
-        margin: 0px 0px -10px 70px;
-        padding: 40px 0px 0px 80px;
+        padding: 0px 0px 0px 100px;
     }
     .image{
         margin-top:1px;
