@@ -4,7 +4,7 @@
 	padding: 1px;
 	margin:
 	auto;
-	transform: skew(-10deg, -10deg);
+	
 }
 .row{
 	display: flex;
@@ -21,7 +21,7 @@ ul{
 .footer-col{
    width: 25%;
    padding: 0 15px;
-   transform: skew(10deg, 10deg);
+  
 }
 .footer-col h4{
 	font-size: 18px;
@@ -111,7 +111,7 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
-    transform: skew(10deg,10deg);
+   
 }
 .form{zoom:120%;} 
  .footer-col .social-links a{
@@ -124,7 +124,7 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
-    transform: skew(10deg, 10deg);
+  
 }
 .form{zoom:120%;} 
  .footer-col .social-links a{
@@ -135,10 +135,10 @@ ul{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
-    transform: none;
+  
 }
   .container {
-    transform: none;
+ 
     }
 .form{	zoom:155%;} 
  .footer-col .social-links a{
@@ -151,18 +151,18 @@ ul{
 @media(max-width: 418px){
  .footer-col .social-links a{
 	zoom: 1.6;
-	transform: none;
+	
 	margin: 0 0px 0px 0;
 	}
   .container {
-    transform: none;
+  
     }
 }
 
 @media(max-width: 380px){
   .footer-col{
     width: 100%;
-    transform: none;
+   
     padding: 0 0 0 0;
 }
 .form{zoom:140%;} 
@@ -171,7 +171,7 @@ ul{
             margin: 0 5px 5px 0px;
      }
   .container {
-    transform: none;
+  
     }
 }
 
@@ -179,10 +179,10 @@ ul{
 @media(max-width: 280px){
   .footer-col{
     width: 100%;
-    transform: none;
+
 }
   .container {
-    transform: none;
+  
     }
 .form{zoom:110%;}
  .footer-col .social-links a{
