@@ -10,9 +10,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 60px;
     padding: 102px 90px;
-    margin: 0px 40px -5px;
- 
-
+    margin: 0;
     z-index: 1;
     background: linear-gradient(45deg,#f8f9d2cc, #e7d9fc33);
 }
@@ -71,13 +69,13 @@
     }
     .image:focus{flex:10.5;}
     .img-acc{
-        height: 75vh;
-        width: 125%;
+        height: 60vh;
+        width: 130%;
         scale: 0.8;
         margin: 0px 0px 0 0px;
     }
     .img-content{
-        margin: 0 0px 0px 60px;
+        margin: 20px 0px 0px 90px;
     }
     
 }
@@ -88,11 +86,11 @@
     }
     .image:focus{flex:8;}
         .img-content{
-        margin: 0px 0px 0px 80px;
+        margin: 20px 0px 0px 80px;
         }
     .img-acc{
-         height: 75vh;
-         width: 120%;
+         height: 55vh;
+         width: 125%;
     }
     
 }@media only screen and (max-width:1080px){
@@ -102,11 +100,11 @@
     }
     .image:focus{flex:8;}
     .img-acc{
-        height: 70vh;
-        width: 120%;
+        height: 75vh;
+        width: 125%;
     }
     .img-content{
-        margin: -40px 0px 0px 80px;
+        margin: 25px 0px 0px 90px;
     }
     
 }
@@ -118,12 +116,12 @@
     }
     .image:focus{flex:8;}
     .img-acc{
-        height: 60vh;
+        height: 50vh;
         width: 115%;
         scale: 0.9;
     }
     .img-content{
-        margin: -65px 0px 0px 60px;
+        margin: -10px 0px 0px 95px;
     }
     
 }
@@ -139,7 +137,7 @@
         }
     
     .img-acc{
-        height: 85vh;
+        height: 70vh;
         width: 100%;
         margin: 0;
     }
@@ -152,7 +150,7 @@
     }
     .image:focus{flex:7;}
     .img-acc{
-        height: 75vh;
+        height: 60vh;
         width: 100%;
         margin: 0;
     }
@@ -182,6 +180,7 @@
     }
         .img-content{
         padding: 0px 0px 0px 30px;
+        margin: 0;
         }
     
     .image p{
@@ -211,7 +210,7 @@
         margin: 0;
     }
      .img-content{
-    padding: 0px auto;
+    margin: 0;
     }
     
     .image{
@@ -236,7 +235,7 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 30px;
-        padding: 0 0px 0 0;
+        padding: 60px 0px 0 0;
         margin: 0;
         zoom: 0.5;
     }
@@ -250,7 +249,7 @@
         scale: 0.75;
     }
     .img-content{
-        padding: 0px 0px 0px 100px;
+    margin: 0px 0 -60px 65px;
     }
     .image{
         margin-top:1px;
