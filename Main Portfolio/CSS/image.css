@@ -69,7 +69,7 @@
     }
     .image:focus{flex:10.5;}
     .img-acc{
-        height: 60vh;
+        height: 70vh;
         width: 130%;
         scale: 0.8;
         margin: 0px 0px 0 0px;
@@ -101,7 +101,7 @@
     .image:focus{flex:8;}
     .img-acc{
         height: 75vh;
-        width: 125%;
+        width: 120%;
     }
     .img-content{
         margin: 0px 0px 0px 90px;
