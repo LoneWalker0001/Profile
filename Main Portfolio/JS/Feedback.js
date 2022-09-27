@@ -5,5 +5,6 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => document.getElementById("indicate").innerHTML="You have sent feedback"),alert("Thanks for Your feedback")
+  document.getElementById("indicate").innerHTML=" " ,document.getElementById("indicate").innerHTML=" "
     .catch(error => console.error('Error!', error.message))
 })
