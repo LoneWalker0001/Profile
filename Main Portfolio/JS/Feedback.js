@@ -4,6 +4,6 @@ const form = document.forms['Profile One Feedback']
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => document.getElementById("indicate").innerHTML="Thanks for Your feed back")
+    .then(response => document.getElementById("indicate").innerHTML="You have send feedback"),alert("Thanks for Your feedback")
     .catch(error => console.error('Error!', error.message))
 })
