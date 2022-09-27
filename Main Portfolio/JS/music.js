@@ -114,7 +114,7 @@ $(function () {
       if (isNaN(ctMinutes) || isNaN(ctSeconds)) insTime.text("--:--");
       else insTime.text(ctMinutes + ":" + ctSeconds);
   
-      insTime.css({ left: seekT, "margin-left": "-21px" }).fadeIn(0);
+      insTime.css({ left: seekT, "margin-left": "0px" }).fadeIn(0);
     }
   
     function hideHover() {
