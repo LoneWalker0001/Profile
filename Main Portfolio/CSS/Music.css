@@ -1,5 +1,5 @@
 .music{
-
+  transform: skew(10deg, 10deg);
   height: 350px;
 }
 #app-cover {
@@ -303,3 +303,8 @@
     color: #fff;
   }
   
+  @media screen and(max-width:380px) {
+.music{
+    zoom:2;
+   } 
+  }
