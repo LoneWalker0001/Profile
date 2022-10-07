@@ -30,7 +30,7 @@ $(function () {
       buffInterval = null,
       tFlag = false,
       albums = [
-        "Heer Ranjha",
+        "Death-bed",
         "Older",
         "Normal",
         "Ghost",
@@ -40,10 +40,11 @@ $(function () {
         "Take You Down",
         "Fractures",
         "Days Like These",
-        "Man On The Moon"
+        "Man On The Moon",
+        "Heer Ranjha"
       ],
       trackNames = [
-        "Bhuvan Bam",
+        "Powfu",
         "Sasha Alex Sloan",
         "Sasha Alex Sloan",
         "Sasha Alex Sloan",
@@ -54,10 +55,11 @@ $(function () {
         "ILLENIUM",
         "SubSpace & RITIX",
         "Alan Walker x Benjamin"
+        "Bhuvan Bam",
       ],
-      albumArtworks = ["_1", "_2", "_3", "_4", "_5","_6","_7", "_8", "_9", "_10","_11"],
+      albumArtworks = ["_1", "_2", "_3", "_4", "_5","_6","_7", "_8", "_9", "_10","_11","_12"],
       trackUrl = [
-        "./Main Portfolio/songs/Heer Ranjha.mp3",
+        "./Main Portfolio/songs/Death-bed.mp3",
         "./Main Portfolio/songs/Sasha Alex Sloan - Older.mp3",
         "./Main Portfolio/songs/Sasha Alex Sloan - Normal.mp3",
         "./Main Portfolio/songs/Sasha Alex Sloan - Dancing With Your Ghost.mp3",
@@ -68,6 +70,7 @@ $(function () {
         "./Main Portfolio/songs/ILLENIUM - Fractures.mp3",
         "./Main Portfolio/songs/Days Like These.mp3",
         "./Main Portfolio/songs/Alan Walker x Benjamin Ingrosso - Man On The Moon.mp3"
+        "./Main Portfolio/songs/Heer Ranjha.mp3"
       ],
       playPreviousTrackButton = $("#play-previous"),
       playNextTrackButton = $("#play-next"),
