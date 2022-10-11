@@ -54,7 +54,7 @@ $(function () {
         "ILLENIUM",
         "ILLENIUM",
         "SubSpace & RITIX",
-        "Alan Walker x Benjamin"
+        "Alan Walker x Benjamin",
         "Bhuvan Bam"
       ],
       albumArtworks = ["_1", "_2", "_3", "_4", "_5","_6","_7", "_8", "_9", "_10","_11","_12"],
@@ -69,7 +69,7 @@ $(function () {
         "./Main Portfolio/songs/ILLENIUM - Take You Down.mp3",
         "./Main Portfolio/songs/ILLENIUM - Fractures.mp3",
         "./Main Portfolio/songs/Days Like These.mp3",
-        "./Main Portfolio/songs/Alan Walker x Benjamin Ingrosso - Man On The Moon.mp3"
+        "./Main Portfolio/songs/Alan Walker x Benjamin Ingrosso - Man On The Moon.mp3",
         "./Main Portfolio/songs/Heer Ranjha.mp3"
       ],
       playPreviousTrackButton = $("#play-previous"),
