@@ -64,7 +64,7 @@
 @media only screen and (max-width: 1480px){
     #wrapper3{
         grid-template-columns: repeat(2,1fr);
-        padding: 60px 30px 60px 30px;
+        padding: 60px 10px 60px 10px;
         margin: 0 0 0 0;
         overflow: hidden;
     }
@@ -78,15 +78,11 @@
     .img-content{
         margin: 20px 0px 0px 90px;
     }
-    .music{
-        scale:1.2;
-    }
-    
+   
 }
 @media only screen and (max-width:1180px){
     #wrapper3{
         grid-template-columns: repeat(2,1fr);
-        zoom:90%;
     }
     .image:focus{flex:8;}
         .img-content{
@@ -100,7 +96,6 @@
 }@media only screen and (max-width:1080px){
     #wrapper3{
         grid-template-columns: repeat(2,1fr);
-        zoom:80%;
     }
     .image:focus{flex:8;}
     .img-acc{
@@ -110,9 +105,7 @@
     .img-content{
         margin: 25px 0px 0px 90px;
     }
-    .music{
-        scale:1.2;
-    }
+  
 }
 @media only screen and (max-width:980px){
     #wrapper3{
@@ -129,9 +122,7 @@
     .img-content{
         margin: -10px 0px 0px 95px;
     }
-    .music{
-        scale:1.2;
-    }
+
 }
 @media only screen and (max-width:880px){
     #wrapper3{
@@ -149,9 +140,7 @@
         width: 100%;
         margin: 0;
     }
-    .music{
-        scale:1.5;
-    }
+  
     
 }
 @media only screen and (max-width:780px){
@@ -168,9 +157,7 @@
         .img-content{
         padding: 0px 45px;
     }
-    .music{
-        scale:1.5;
-    }
+ 
 }
 @media only screen and (max-width:680px){
     #wrapper3{ 
@@ -205,12 +192,10 @@
     color: #fff;
     transform: rotate(-90deg);
               }
-    .music{
-        scale:1.5;
-    }
+    
 }  
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width: 480px){
     #wrapper3{
         display: flex;
         flex-direction: column-reverse;
@@ -245,18 +230,14 @@
     color: #fff;
     transform: rotate(-90deg);
               }
-    .music{
-        scale:1.12;
-    }
+   
 } 
 @media only screen and (max-width:380px){
     #wrapper3{
         display: flex;
         flex-direction: column-reverse;
         gap: 30px;
-        padding: 60px 0px 0 0;
         margin: 0;
-        zoom: 0.5;
     }
     .image:focus{flex:3}
 
@@ -286,9 +267,7 @@
     color: #fff;
     transform: rotate(-90deg);
               }
-    .music{
-        scale:1.6;
-    }
+    
 } 
 
 @media only screen and (max-width:330px){
