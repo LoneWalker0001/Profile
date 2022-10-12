@@ -11,14 +11,12 @@
 }
 #wrapper2{
     background: linear-gradient(230deg,#f8f9d2cc, #e7d9fc33);
-    padding: 80px 80px;
+    padding: 40px 40px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2,1fr);
     z-index: 1;
     font-family: sans-serif;
-   
-
 }
 #wrapper1 .Resp-grid1 {
     display: flex;
@@ -36,7 +34,6 @@
 .Dtext{
     font-size: 4.125rem;
     font-weight: 300;
-    margin: 25px 0 0;
     text-align: right;
 }
 .readmore{
@@ -44,7 +41,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 1px 35px;
+    margin: 10px 35px;
     color: #ffffff;
     background-color: #1f2125f0;
     width: 15em;
@@ -69,8 +66,7 @@
     padding: 15px;
     flex-direction: column;
     justify-content: space-around;
-   
-    margin: -110px 0 0 0;
+    margin: 0 0 0 0;
 }
 #cv{
     max-width: 480px;
@@ -94,12 +90,6 @@ button{margin-top: 10px;
     padding: 2px 15px;
 }
 
-.content1{
-    opacity: 0.977376;
-    left: 18.0995px;
-    margin: 10px 10px;
-}
-
 @media only screen and (max-width:1280px){
     #wrapper1 ,#wrapper2{
         grid-template-columns: repeat(2,1fr);
@@ -116,10 +106,12 @@ button{margin-top: 10px;
             height: 320px;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 65px 25px;
+        padding: 0 0 0 20px;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 40px;
+        padding: 0;
+        margin: 0;
     }
 }
 @media only screen and (max-width:1180px){
@@ -140,11 +132,13 @@ button{margin-top: 10px;
         margin-top: 25px;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 65px 25px;
+        padding: 0 0 0 20px;
         font-size: 1em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 35px;
+        padding: 0;
+        margin: 0;
     }
 }
 @media only screen and (max-width:1080px){
@@ -165,11 +159,13 @@ button{margin-top: 10px;
         width: 105%;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 65px 25px;
+        padding: 0 0 0 20px;
         font-size: 0.9em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 35px;
+        padding: 0;
+        margin: 0;
     }
 }
 @media only screen and (max-width:980px){
@@ -190,11 +186,13 @@ button{margin-top: 10px;
             width: 105%;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 65px 25px;
+        padding: 0 0 0 20px;
         font-size: 0.85em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 40px;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -217,11 +215,14 @@ button{margin-top: 10px;
            margin: 30px 0px 0px 0px;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 65px 25px;
+        padding: 0 0 0 20px;
+        margin: 0;
         font-size: 0.8em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 35px;
+        margin: 0;
+        padding: 0;
     }
 }
 @media only screen and (max-width:780px){
@@ -242,11 +243,13 @@ button{margin-top: 10px;
         margin: -35px 0 0 0;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 35px 25px;
+        padding: 0;
         font-size: 0.8em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 30px;
+        padding: 0;
+        margin: 0;
     }
 }
 @media only screen and (max-width:680px){
@@ -267,11 +270,14 @@ button{margin-top: 10px;
         width: 100%;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 35px 25px;
+        padding: 0;
         font-size: 0.8em;
+        margin: 0;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 30px;
+        padding: 0;
+        margin: 0;
     }
 }
 @media only screen and (max-width:580px){
@@ -295,12 +301,13 @@ button{margin-top: 10px;
     margin: 20px 0 20px 0;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 25px 25px;
+        padding: 0;
         font-size: 0.8em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 30px;
-        margin: 0 50px 0 0;
+        margin: 0;
+        padding: 0;
     }
 }
 @media only screen and (max-width:480px){
@@ -323,12 +330,13 @@ button{margin-top: 10px;
                width: 100%;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 20px 15px;
+        padding: 0;
         font-size: 0.8em;
     }
     #wrapper2 .Resp-grid2 {
         border-radius: 25px;
-        margin: 0 50px -60px 0;
+        padding: 0;
+        margin: 0 0px 0px 0;
     }
     button{transform: scale(0.9);
             height: 30px;
@@ -336,6 +344,7 @@ button{margin-top: 10px;
     }
      .readmore {
     padding:15px 1px;
+    margin: 10px;
     }
 
 }
@@ -359,20 +368,20 @@ button{margin-top: 10px;
     width: 100%;
     }
     #wrapper2 .Resp-grid1 {
-        padding: 15px 15px;
+        padding: 50px 0;
         font-size: 0.8em;
-        margin: -50px 0px 10px 0;
+        margin: 0px 15px 0px -15px;
     }
     #wrapper2 .Resp-grid2 {
-        border-radius: 25px;
-        margin: 0 50px 0 0;
+        margin: 0 0 0 0;
+        padding: 0;
     }
     button{transform: scale(0.9);
             max-width: 100%;
     }
 
     .readmore {
-    padding:15px 1px;
+    margin: 10px;padding:15px 1px;
     }
 }
 @media only screen and (max-width:280px){
