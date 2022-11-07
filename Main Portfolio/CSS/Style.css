@@ -7,17 +7,17 @@
     }
     body
     {
-    background: #579cff;
     max-height: 1500px;
     }  
     #welcome{
+        background: #579cff;
         font-size: 150%;
         font-weight: bolder;
         padding-top: 50px;
         text-align: center;
     }
-    .parallax
-    {
+    .parallax{
+    background: #579cff;
     position: absolute;
     width: 100%;
     overflow: hidden;
