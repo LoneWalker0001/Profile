@@ -1,7 +1,5 @@
 /*                      JS Link Page                */
-document.getElementById('play').addEventListener('click', Library(this){
-     location.href = './Library.html';
-})
+
 function Home(link){
     location.href = './Index.html';
 }
@@ -13,4 +11,6 @@ function Library(link){
     location.href = './Library.html';
 }
 
-
+document.getElementById('play').addEventListener('click', mylib(){
+     location.href = './Library.html';
+})
