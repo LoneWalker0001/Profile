@@ -11,12 +11,10 @@ function Library(link){
     location.href = './Library.html';
 }
 
-document.getElementById('play').forEach().addEventListener('click', ()=>{
-     location.href = './Library.html';
+
+Playlink = Array.from(document.getElementsByClassName('play-pause'));
+play-pause.forEach((element, i)=>{ 
+        element.addEventListener('click', ()=>{
+             location.href = './Library.html';
+        })
 })
-// document.querySelectorAll('.play-pause').forEach(()=>{
-//     // Now do something with my button
-// });
-// document.getElementsByClassName('play-pause').forEach(el => {
-//     location.href = './Library.html';
-// })
