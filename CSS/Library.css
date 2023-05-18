@@ -25,7 +25,7 @@
 
 .songItem{
         display: flex;
-        height: 70px;
+        height: 65px;
         justify-content: space-between;
         font-size: 20px;
         margin: 15px 0;
