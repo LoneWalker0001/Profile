@@ -12,6 +12,7 @@
     width: 200px;
     background: url("https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
     margin: 0 50px 0 0;
 }
 .album-title h1{
