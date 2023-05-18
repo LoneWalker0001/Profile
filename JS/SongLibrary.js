@@ -8,6 +8,7 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
+let songplaypause = Array.from(document.getElementsByClassName('songItemPlay'));
 
 let songs = [
     {songName: "Let it be", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
@@ -37,22 +38,28 @@ songItems.forEach((element, i)=>{
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
 })
- 
 
 // Handle play/pause click
 masterPlay.addEventListener('click', ()=>{
+ 
     if(audioElement.paused || audioElement.currentTime<=0){
+    
         audioElement.play();
+
         masterPlay.classList.remove('fa-play');
         masterPlay.classList.add('fa-pause');
     }
     else{
         audioElement.pause();
+
         masterPlay.classList.remove('fa-pause');
         masterPlay.classList.add('fa-play');
 
     }
+    
 })
+
+ 
 // Listen to Events
 audioElement.addEventListener('timeupdate', ()=>{ 
     // Update Seekbar
@@ -68,23 +75,46 @@ const makeAllPlays = ()=>{
     Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         element.classList.remove('fa-pause');
         element.classList.add('fa-play');
-        audioElement.play();
+       
+        if(audioElement.paused || audioElement.currentTime<=0){
+            audioElement.play();
+        }
+        else{
+
+            audioElement.pause();
+        }
     })
 }
 
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     element.addEventListener('click', (e)=>{ 
-        makeAllPlays();
-        songIndex = parseInt(e.target.id);
-        e.target.classList.remove('fa-play');
-        e.target.classList.add('fa-pause');
-        audioElement.src = `songs/${songIndex+1}.mp3`;
-        masterSongName.innerText = songs[songIndex].songName;
-        audioElement.currentTime = 0;
-        audioElement.play();
-        gif.style.opacity = 1;
-        masterPlay.classList.remove('fa-play');
-        masterPlay.classList.add('fa-pause');
+
+
+        if(audioElement.paused || audioElement.currentTime<=0){
+            makeAllPlays();
+            songIndex = parseInt(e.target.id);
+            e.target.classList.remove('fa-play');
+            e.target.classList.add('fa-pause');
+            audioElement.src = `songs/${songIndex+1}.mp3`;
+            masterSongName.innerText = songs[songIndex].songName;
+            audioElement.currentTime = 0;
+            audioElement.play();
+            masterPlay.classList.remove('fa-play');
+            masterPlay.classList.add('fa-pause');
+        }
+        else{
+            makeAllPlays();
+            songIndex = parseInt(e.target.id);
+            e.target.classList.remove('fa-pause');
+            e.target.classList.add('fa-play');
+            audioElement.src = `songs/${songIndex+1}.mp3`;
+            masterSongName.innerText = songs[songIndex].songName;
+            audioElement.currentTime = 0;
+            audioElement.pause();
+            masterPlay.classList.add('fa-play');
+            masterPlay.classList.remove('fa-pause');
+    
+        }
         
     })
 })
