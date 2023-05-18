@@ -13,7 +13,7 @@ function Library(link){
 
 
 Playlink = Array.from(document.getElementsByClassName('play-pause'));
-play-pause.forEach((element, i)=>{ 
+Playlink.forEach((element, i)=>{ 
         element.addEventListener('click', ()=>{
              location.href = './Library.html';
         })
