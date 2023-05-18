@@ -12,4 +12,4 @@ function Library(link){
 
 document.getElementById('play').addEventListener('click', ()=>{
      location.href = './Library.html';
-}
+});
