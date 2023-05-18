@@ -11,6 +11,7 @@ function Library(link){
     location.href = './Library.html';
 }
 
-document.getElementById('play').addEventListener('click', mylib(){
+document.getElementById('play').addEventListener('click', mylib())
+function mylib(){
      location.href = './Library.html';
-})
+}
