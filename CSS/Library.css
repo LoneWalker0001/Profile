@@ -35,6 +35,7 @@
 .songItem:hover{
     padding:0.5px;
     box-shadow:2px 2px 100px #4a5662 inset;
+    border-radius:5px;
 }
 .songItem img{
     border:5px;
