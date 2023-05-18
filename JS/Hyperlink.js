@@ -17,6 +17,6 @@ function Library(link){
 // document.querySelectorAll('.play-pause').forEach(()=>{
 //     // Now do something with my button
 // });
-document.getElementsByClassName('play-pause')].forEach(el => {
+document.getElementsByClassName('play-pause').forEach(el => {
     location.href = './Library.html';
 })
