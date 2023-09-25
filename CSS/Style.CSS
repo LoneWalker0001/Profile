@@ -112,7 +112,8 @@
         display: none;
     }
     .btn-signup{
-            margin: 5px;
+    display:none;
+    margin: 5px;
     position: relative;
     left: 50%;
     transform: translate(-50%,0%);
